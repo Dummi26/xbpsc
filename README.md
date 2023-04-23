@@ -1,5 +1,7 @@
 # xbpsc
 
+A wrapper for [the xbps package manager](https://docs.voidlinux.org/xbps/index.html).
+
 This program always run `xbps-$@`: `xbpsc install -Su` becomes `xbps-install -Su`.
 
 Anything that works with xbps-whatever commands should be doable from xbpsc too.
